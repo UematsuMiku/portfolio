@@ -14,7 +14,7 @@ public class Longest_search {
         //探索のための辞書を作成
         ArrayList list = new ArrayList<String>();  //元の辞書
         ArrayList list2 = new ArrayList<String>(); //単語内の文字は、必ず昇順
-        list = Write_dic.dic_to_list("/Users/uematsumiku/Desktop/anagram/dic");
+        list = Write_dic.dic_to_list("./dic");
         list2 = Make_dic_map.sort_list_cont(list); //新しい辞書
         Collections.sort(list2); //書き換えた辞書が完成
 
